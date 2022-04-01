@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey my name is Silas Huckins. I'm currently a student at NCSU as of 2022 (when I'm writing this). I grew up in Raleigh, NC. I enjoy math, writing, board/card games, cooking/baking, drawing, and sometimes guitar.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[smhuckin (at) ncsu.edu](mailto:smhuckin@ncsu.edu)

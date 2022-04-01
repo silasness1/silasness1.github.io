@@ -4,7 +4,7 @@ usemathjax: true
 title: Math Homework!
 ---
 
-$$5x^2+3$$
+Remember not to use Mathjax in first line of post
 
 Well it looks like this is a failure for math.
 
@@ -14,11 +14,15 @@ $$\cos(x)*5+5+\frac{5,3}$$
 But can I do the other markdown stuff?
 
 
-*List
-*of
-*your
-*favorite
-*jokes
+* List
+* of
+* your
+* favorite
+* Jokes
+
+1 Knock Knock
+  1 who's there?
+  2 Interupting Cow
 
 # This is a title
 ## This is a subtitle
@@ -27,4 +31,4 @@ But can I do the other markdown stuff?
 
 Is this working yet?
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![your favorite superhero]({{ site.baseurl }}/images/cow.jpg)
