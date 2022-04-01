@@ -8,7 +8,7 @@ Remember not to use Mathjax in first line of post
 
 Well it looks like this is a failure for math.
 
-$$\cos(x)*5+5+\frac{5,3}$$
+$$\cos(x)*5+5+\frac{5}{3}$$
 
 
 But can I do the other markdown stuff?
