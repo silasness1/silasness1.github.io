@@ -1,0 +1,116 @@
+body {
+    
+    background-color: rgb(241, 188, 226);
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 1rem; /* Space between images */
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+.grid-container img {
+    width: 100%;     /* Fills grid cell width */
+    height: auto;    /* Maintains image aspect ratio */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* NAV BAR STUFF */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* This centers items vertically */
+    background-color: #333;
+    padding: 1rem 0;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+
+  .navbar a:hover {
+    background-color: #444;
+  }
+
+  /* Dropdown container acts like a nav item */
+  .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center; /* Keeps the dropdown link vertically centered */
+  }
+
+  .dropdown > a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #444;
+    border-radius: 5px;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Section specifications */
+#section1 p {
+    font-family: 'Sixtyfour', serif;
+}
+
+#section2 p {
+    font-family: 'Afacad', serif;
+    font-size:large;
+
+}
+
+#section3 p {
+    font-family: 'Averia Libre', serif;
+    font-size:large; 
+}
+
+
+
+p {
+    font-family: 'Maname', serif;
+}
+
+/*IMAGE ZOOM */
+
+.zoom-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* smooth animation */
+}
+  
+.zoom-container img:hover {
+    transform: scale(1.1); /* 10% larger */
+}
