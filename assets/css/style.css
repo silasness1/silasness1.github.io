@@ -1,7 +1,71 @@
-body {
-    
-    background-color: rgb(241, 188, 226);
 
+
+/* Remove overflow: hidden or you'll clip the image */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #676c53;
+  overflow:hidden
+}
+
+/* Full-height container starting below navbar */
+.hero-wrapper {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Tree image stretches full height, width auto to preserve aspect */
+.tree-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100vh;
+  width: auto;
+  display: block;
+  /* z-index: -1; behind nav and text */
+}
+
+/* Optional overlay text */
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  /* z-index: 1; */
+}
+
+
+/* grid background */
+body.graph-paper{
+  font-size: 1rem;
+
+  background:
+    linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), 
+    linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+    linear-gradient(transparent 0.3375rem, #f2f2f2 0.3375rem, #f2f2f2 8.775rem, transparent 8.775rem),
+    linear-gradient(-90deg, #aaa 1px, transparent 1px),
+    linear-gradient(-90deg, transparent 0.3375rem, #f2f2f2 0.3375rem, #f2f2f2 8.775rem, transparent 8.775rem),
+    linear-gradient(#aaa 1px, transparent 1px),
+    #f2f2f2;
+
+  background-size:
+    0.45rem 0.45rem,
+    0.45rem 0.45rem,
+    9rem 9rem,
+    9rem 9rem,
+    9rem 9rem,
+    9rem 9rem,
+    9rem 9rem,
+    9rem 9rem;
 }
 
 .grid-container {
