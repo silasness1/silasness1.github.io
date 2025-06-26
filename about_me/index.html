@@ -1,23 +1,35 @@
----
-layout: default
-title: About Me
----
-
 <!DOCTYPE html>
 <html>
 <head>
-<!-- world map -->
-<script type="text/javascript" src="../assets/js/mapdata.js"></script>		
-<script  type="text/javascript" src="../assets/js/worldmap.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- world map -->
+    <script type="text/javascript" src="../assets/js/mapdata.js"></script>		
+    <script  type="text/javascript" src="../assets/js/worldmap.js"></script>
 </head>
 <body>
-    <main>
+   
+    <main class="about-grid">
         <h1>About Me</h1>
-        <section id="personality">
+    
+        <section id="personality" class="personality">
             <h2>Personality Type</h2>
-            <strong>ENTJ</strong>
+            <strong>ENTJ</strong><br>
+            Extraversion<br>
+            Intuitive<br>
+            Thinking<br>
+            Judging
         </section>
-        <section id="values">
+    
+        <section id="current" class="current">
+            <h2>Latest Updates</h2>
+            <ul>
+                <li>Trying to learn more in my freetime by working on projects</li>
+                <li>Read "Sunrise on the Reaping" by Suzanne Collins</li>
+                <li>Watched some episodes of Tires</li>
+            </ul>
+        </section>
+    
+        <section id="values" class="values">
             <h2>Values</h2>
             <ul>
                 <li>Creative Inquiry & Expression</li>
@@ -27,11 +39,13 @@ title: About Me
                 <li>Presence & Intentionality</li>
             </ul>
         </section>
-        <section id="travel">
+    
+        <section id="travel" class="travel">
             <h2>Countries I've Traveled To</h2>
             <div id="map"></div>
         </section>       
-        <img src="../assets/gifs/construction.gif">
+    
+        <img class="construction" src="../assets/gifs/construction.gif" alt="Under construction" />
     </main>
 </body>
 <footer>
