@@ -1,3 +1,8 @@
+---
+layout: post
+title:  25 Interesting Application Areas for Use in Real World Math Problems
+---
+
 These are random topics from everyday life or school which I found interesting and I hope inspire future applications of math and programming. When I'm looking to create an example, these are a good basis to pull from. 
 
 1) people's history - focus on the agency of an individual of the time

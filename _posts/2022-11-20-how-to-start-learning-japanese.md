@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Approach to Starting to Learn Japanese
+title: How to Start Learning Japanese
 ---
 
 To be fair, I'm no expert. I've had no success learning the language. On the other hand, I have semi-successfully learned German (though that was probably way easier). Mostly I wanted to document my intentions and come up with a plan. I also wanted to share the resouces I've found. I believe the first thing to do is memorize the alphabet. Doesn't seem fun. I, luckily, did this in elementary school for a class, but I totally used duolingo to brush up and thought they did a good job, but 
