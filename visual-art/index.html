@@ -1,39 +1,23 @@
 ---
 layout: default
 title: Visual Art
+under_construction: true
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
+
     <body class="graph-paper">
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <div class="dropdown">
-                <a href="#" onclick="return false;">Personal</a>
-                <div class="dropdown-content">
-                    <a href="about_me">About me</a>
-                    <a href="favorites">Favorites</a>
-                    <a href="interests">Interests</a>
-                </div>
-            </div>
-            <a href="visual-art">Visual Art</a>
-            <a href="writing">Writing</a>
-            <a href="work-portfolio">Work Portfolio</a>
-          </nav>
     
         <div class="grid-container">
-            <img src="../assets/drawings/sleeper.png" alt="Image 1">
-            <img src="../assets/drawings/angel_twins.png" alt="Image 2">
+            <img src="{{ '/assets/drawings/sleeper.png' | relative_url }}" alt="Image 1">
+            <img src="{{ '/assets/drawings/angel_twins.png' | relative_url }}" alt="Image 2">
+
             <div class="zoom-container">
-                <img src="../assets/drawings/moro.png" alt="Zoom me!">
+            <img src="{{ '/assets/drawings/moro.png' | relative_url }}" alt="Zoom me!">
             </div>
             <div class="zoom-container">
-                <a href="writing">
-                    <img src="../assets/drawings/tiger.png" alt="Description of image" />
-                </a>
+            <a href="{{ '/writing/' | relative_url }}">
+                <img src="{{ '/assets/drawings/tiger.png' | relative_url }}" alt="Description of image" />
+            </a>
             </div>
         </div>
 </body>

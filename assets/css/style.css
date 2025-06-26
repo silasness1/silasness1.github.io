@@ -1,18 +1,5 @@
-/* body#home-tree {
-  background-color: #676c53; */
-  /* background-image: url("../dark_tree.svg"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: center top; */
-  /* background-size: 1200px 800px; */
-/* } */
 
-/* When viewport is wider than 1200px, scale up */
-/* @media (min-width: 1200px) {
-  body#home-tree {
-    background-size: 100vw auto; /* grow width to viewport 
-  }
-} */
-
+/* HOME TREE PAGE STYLES */
 
 /* Remove overflow: hidden or you'll clip the image */
 body#home-tree {
@@ -56,7 +43,7 @@ body#home-tree {
 }
 
 
-/* grid background */
+/* GRAPH PAPER BACKGROUND */
 body.graph-paper{
   font-size: 1rem;
 
@@ -159,7 +146,7 @@ body.graph-paper{
     display: block;
   }
 
-/* Section specifications */
+/* SECTION SPECIFICATIONS */
 #section1 p {
     font-family: 'Sixtyfour', serif;
 }
@@ -174,8 +161,6 @@ body.graph-paper{
     font-family: 'Averia Libre', serif;
     font-size:large; 
 }
-
-
 
 p {
     font-family: 'Maname', serif;

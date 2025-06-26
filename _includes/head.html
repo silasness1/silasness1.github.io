@@ -1,0 +1,53 @@
+<head>
+    <!-- from minima -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ '/assets/drawings/double_diamond_icon.png' | relative_url }}" type="image/png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Sixtyfour&display=swap" rel="stylesheet">
+    
+    <!-- MathJax -->
+    {% if page.math %}
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {% endif %}
+
+     <!-- Syntax Highlighting -->
+    {% if page.code %}
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-okaidia.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    {% endif %}
+
+    <!-- Mermaid Diagrams -->
+    {% if page.mermaid %}
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    {% endif %}
+
+    <!-- map -->
+    {% if page.map %}
+     <script type="text/javascript" src="{{ '/assets/js/mapdata.js' | relative_url }}"></script>		
+     <script  type="text/javascript" src="{{ '/assets/js/worldmap.js' | relative_url }}"></script>
+     {% endif %}
+</head>
+  
