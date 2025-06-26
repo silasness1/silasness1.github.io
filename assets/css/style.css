@@ -1,12 +1,26 @@
+/* body#home-tree {
+  background-color: #676c53; */
+  /* background-image: url("../dark_tree.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center top; */
+  /* background-size: 1200px 800px; */
+/* } */
+
+/* When viewport is wider than 1200px, scale up */
+/* @media (min-width: 1200px) {
+  body#home-tree {
+    background-size: 100vw auto; /* grow width to viewport 
+  }
+} */
 
 
 /* Remove overflow: hidden or you'll clip the image */
-html, body {
+body#home-tree {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: #676c53;
-  overflow:hidden
+  overflow: hidden;
 }
 
 /* Full-height container starting below navbar */
@@ -177,4 +191,46 @@ p {
   
 .zoom-container img:hover {
     transform: scale(1.1); /* 10% larger */
+}
+
+/* ABOUT ME GRID*/ 
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 3fr;
+  grid-template-areas:
+    ".             .            title         title         title        .            ."
+    "personality   personality  current       current             values        values       values"
+    "travel        travel       current       current            values       values       values"
+    "travel        travel       construction  construction  construction            .            ."
+    "travel        travel       construction  construction  construction            .            ."
+    "travel        travel       construction  construction  construction            .            .";
+  gap: 2rem;
+  padding: 2rem;
+  place-items: center; /* horizontally + vertically center content */
+  /* text-align: center;  optional: center text inside each item */
+}
+
+.about-grid h1 {
+  grid-area: title;
+}
+
+.about-grid .personality {
+  grid-area: personality;
+}
+
+.about-grid .current {
+  grid-area: current;
+}
+
+.about-grid .values {
+  grid-area: values;
+}
+
+.about-grid .travel {
+  grid-area: travel;
+}
+
+.about-grid .construction {
+  grid-area: construction;
 }
