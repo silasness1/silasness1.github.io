@@ -219,6 +219,115 @@ p {
 .about-grid .construction {
   grid-area: construction;
 }
+
+
+/*STARRY NIGHT BACKGROUND */
+
+#starry-night-black {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background-attachment: fixed; /* ✨ This pins the gradient to the viewport */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#sky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  /* overflow: hidden; */
+  pointer-events: none;
+}
+
+/* Base styles for each star */
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+/* Each layer moves at a different speed */
+.star-layer-1 {
+  animation: moveStars1 120s linear infinite;
+}
+
+.star-layer-2 {
+  animation: moveStars2 180s linear infinite;
+}
+
+.star-layer-3 {
+  animation: moveStars3 240s linear infinite;
+}
+
+@keyframes moveStars1 {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2000px); }
+}
+
+@keyframes moveStars2 {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2000px); }
+}
+
+@keyframes moveStars3 {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2000px); }
+}
+
+/*LIGHTWEIGHT VERSION */
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  z-index: -1;
+}
+
+/* FAVORITES CARDS */
+.favorites-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 95vw;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1); /* translucent for starry background */
+  backdrop-filter: blur(6px); /* frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+body.layout-starry main.page-content > .wrapper {
+  padding: 0;
+  max-width: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2,
+.card ul,
+.card li {
+  color: white;
+}
+
 /*WRITING BACKGROUND*/
 body.writing-background {
   background-color: #d5d6d0; 

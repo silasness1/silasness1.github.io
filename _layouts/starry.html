@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body id="starry-night-black" class = "layout-starry">
+
+    {% include nav.html %}
+
+    <!-- nice verison -->
+     <!-- <div id="sky"></div>
+     <script src="{{ '/assets/js/stars.js' | relative_url }}"></script> -->
+
+     <!-- lightweight version -->
+     <canvas id="starfield"></canvas>
+     <script src="{{ '/assets/js/stars_lightweight.js' | relative_url }}"></script>
+    
+    {% if page.under_construction %}
+      <div class="under-construction">
+        <img src="{{ '/assets/gifs/construction.gif' | relative_url }}" alt="Under construction gif">
+      </div>
+    {% endif %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+
+</html>
