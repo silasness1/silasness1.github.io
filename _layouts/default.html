@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+  
   {%- include head.html -%}
-
-  <body>
-
+  
+  <body class="{{ page.body_class | default: '' }}">
     {% include nav.html %}
-
-    {% if page.under_construction %}
-      <div class="under-construction">
-        <img src="{{ '/assets/gifs/construction.gif' | relative_url }}" alt="Under construction gif">
+    {% if page.vertical_name %}
+      <div class="vertical-name-stack">
+        {% assign name = page.vertical_name | split: "" %}
+        {% for letter in name %}
+          <span>{{ letter }}</span>
+        {% endfor %}
       </div>
     {% endif %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-  </body>
+    
+    {% if page.under_construction %}
+  <div class="under-construction">
+    <img src="{{ '/assets/gifs/construction.gif' | relative_url }}" alt="Under construction gif">
+  </div>
+  {% endif %}
+  
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+</body>
 
 </html>

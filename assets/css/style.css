@@ -390,3 +390,45 @@ body.writing-background p {
   white-space: nowrap;
   color: #555;
 }
+
+
+/* ABOUT ME VERTICAL NAME */
+body.about-me-page {
+  position: relative;
+  min-height: 300vh;
+  overflow-x: visible; /* allow content slightly off-screen */
+}
+
+.content-wrapper {
+  padding-left: 30vw; /* default for mobile/smaller screens */
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* For screens wider than 768px (tablet/desktop), reduce padding */
+@media (min-width: 768px) {
+  .content-wrapper {
+    padding-left: 5vw;
+  }
+}
+
+
+.vertical-name-stack {
+  position: absolute;
+  top: 10vh; /* adjust for desired vertical offset */
+  left: 0;
+  transform: translateX(-25%); /* shift left but not off-screen */
+  font-size: 30vw;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  line-height: 1.1;
+  user-select: none;
+  pointer-events: none;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-name-stack span {
+  writing-mode: horizontal-tb;
+}
