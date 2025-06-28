@@ -432,62 +432,43 @@ body.about-me-page {
 
 
 /* MANGA STYLE LAYOUT */
-:root {
-  --panel-gap: 2rem;
-  --panel-width: 66vw;
-}
-
-.main-grid {
-  max-width: var(--panel-width);
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: var(--panel-gap);
-}
-
-/* Shared row styles */
-.row-1,
-.row-2,
-.row-3,
-.row-4,
-.row-5 {
+.responsive-manga-grid {
   display: grid;
-  gap: var(--panel-gap);
-}
-
-/* Specific row heights and column layouts */
-.row-1 {
-  grid-template-columns: 4fr 3fr 3fr;
-  height: 75vh;
-}
-
-.row-2 {
-  grid-template-columns: 1fr 2fr;
-  height: 100vh;
-}
-
-.row-3 {
   grid-template-columns: 1fr;
-  height: 50vh;
+  gap: 1rem;
+  width: 95vw;
+  max-width: 95vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding-right: 1rem; /* equal to left padding */
 }
 
-.row-4 {
-  grid-template-columns: 1fr 1fr;
-  height: 50vh;
+.row {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
 }
 
-.row-5 {
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 67vh;
-}
-/* Panel styles */
+/* Panels */
 .panel {
-  background: #ddd;
-  box-shadow: inset 0 0 0 4px black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-align: center;
+  background: #eee;
+  border: 4px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* DESKTOP LAYOUT — active when screen is 901px and wider */
+@media (min-width: 901px) {
+  .responsive-manga-grid {
+    width: 66vw;
+    max-width: 66vw;
+    
+  }
+
+  .row1 { grid-template-columns: 4fr 3fr 3fr; height: 75vh; }
+  .row2 { grid-template-columns: 1fr 2fr; height: 100vh; }
+  .row3 { grid-template-columns: 1fr; height: 50vh; }
+  .row4 { grid-template-columns: 1fr 1fr; height: 50vh; }
+  .row5 { grid-template-columns: 1fr 1fr 1fr; height: 67vh; }
 }
