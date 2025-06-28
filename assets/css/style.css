@@ -28,7 +28,17 @@ body#home-tree {
   display: block;
   z-index: 0;
 }
-
+.tree-svg.mobile {
+  display: none;
+}
+@media (max-width: 650px) {
+  .tree-svg.desktop {
+    display: none;
+  }
+  .tree-svg.mobile {
+    display: block;
+  }
+}
 
 /* GRAPH PAPER BACKGROUND */
 body.graph-paper{
