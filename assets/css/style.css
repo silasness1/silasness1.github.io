@@ -268,7 +268,7 @@ body.about-me-page p, li {
   grid-template-columns: 1fr;
   gap: 2rem;
   padding: 2rem;
-  max-width: 95vw;
+  max-width: 70vw;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -290,14 +290,29 @@ body.layout-starry main.page-content > .wrapper {
   max-width: 100%;
 }
 
-.card:hover {
+/* .card:hover {
   transform: translateY(-5px);
-}
+} */
 
 .card h2,
 .card ul,
 .card li {
   color: white;
+}
+
+/*ANIME FAVS*/
+.anime-image {
+  width: 33vw;
+  height: auto;
+  display: block;
+  margin-top: 0.5rem;
+  margin: auto;
+}
+
+.anime-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /*WRITING BACKGROUND*/
@@ -374,13 +389,14 @@ body.about-me-page {
 .content-wrapper {
   padding-left: 15vw; /* default for mobile/smaller screens */
   max-width: 70vw;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 /* For screens wider than 768px (tablet/desktop), reduce padding */
 @media (min-width: 768px) {
   .content-wrapper {
     padding-left: 5vw;
+    margin: 6rem auto;
   }
 }
 
