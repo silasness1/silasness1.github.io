@@ -6,10 +6,28 @@
   <body class="{{ page.body_class | default: '' }}">
     {% include nav.html %}
     {% if page.vertical_name %}
-      <div class="vertical-name-stack">
+      <div class="vertical-name-stack desktop">
         {% assign name = page.vertical_name | split: "" %}
         {% for letter in name %}
-          <span>{{ letter }}</span>
+          {% if letter == " " %}
+            <span class="letter space">A</span>
+          {% else %}
+            <span class="letter">{{ letter }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    
+    {% if page.vertical_name_mobile %}
+      <div class="vertical-name-stack mobile">
+        {% assign name = page.vertical_name_mobile | split: "" %}
+        {% for letter in name %}
+          {% if letter == " " %}
+            <span class="letter space">A</span>
+          {% else %}
+            <span class="letter">{{ letter }}</span>
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}

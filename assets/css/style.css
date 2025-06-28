@@ -143,7 +143,7 @@ body.graph-paper{
     display: block;
   }
 
-/* SECTION SPECIFICATIONS */
+/* ABOUTME SECTION SPECIFICATIONS */
 #section1 p {
     font-family: 'Sixtyfour', serif;
 }
@@ -175,46 +175,21 @@ p {
     transform: scale(1.1); /* 10% larger */
 }
 
-/* ABOUT ME GRID*/ 
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 1fr 1fr 1fr 3fr;
-  grid-template-areas:
-    ".             .            title         title         title        .            ."
-    "personality   personality  current       current             values        values       values"
-    "travel        travel       current       current            values       values       values"
-    "travel        travel       construction  construction  construction            .            ."
-    "travel        travel       construction  construction  construction            .            ."
-    "travel        travel       construction  construction  construction            .            .";
-  gap: 2rem;
-  padding: 2rem;
-  place-items: center; /* horizontally + vertically center content */
-  /* text-align: center;  optional: center text inside each item */
+/*ABOUT TEXT */
+body.about-me-page h1{
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.about-grid h1 {
-  grid-area: title;
+body.about-me-page h2{
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.about-grid .personality {
-  grid-area: personality;
-}
-
-.about-grid .current {
-  grid-area: current;
-}
-
-.about-grid .values {
-  grid-area: values;
-}
-
-.about-grid .travel {
-  grid-area: travel;
-}
-
-.about-grid .construction {
-  grid-area: construction;
+body.about-me-page p, li {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  line-height: 1.6;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -397,8 +372,8 @@ body.about-me-page {
 }
 
 .content-wrapper {
-  padding-left: 30vw; /* default for mobile/smaller screens */
-  max-width: 700px;
+  padding-left: 15vw; /* default for mobile/smaller screens */
+  max-width: 70vw;
   margin: 0 auto;
 }
 
@@ -428,6 +403,22 @@ body.about-me-page {
 }
 .vertical-name-stack span {
   writing-mode: horizontal-tb;
+}
+
+.vertical-name-stack .space {
+  visibility: hidden;  /* Keeps the dimensions of "A" but hides it */
+}
+
+.vertical-name-stack.mobile {
+  display: none;
+}
+@media (max-width: 650px) {
+  .vertical-name-stack.desktop {
+    display: none;
+  }
+  .vertical-name-stack.mobile {
+    display: flex;
+  }
 }
 
 
