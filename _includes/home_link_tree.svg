@@ -27,8 +27,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.6837445"
-     inkscape:cx="402.71613"
-     inkscape:cy="242.0608"
+     inkscape:cx="326.37329"
+     inkscape:cy="236.36009"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
      inkscape:window-x="1920"
@@ -75,53 +75,69 @@
        d="m 44.466063,211.48843 13.47976,-2.15054 12.782153,-1.53253 6.326919,-0.56656 6.111992,0.59127 c 0,0 6.097505,-0.36353 6.435569,-0.70159 0.338066,-0.33807 5.368597,-4.18448 5.368597,-4.18448 0,0 3.898974,-4.47418 4.415991,-4.9912 0.517015,-0.51702 4.084926,-6.29638 4.084926,-6.29638 l 3.94519,-4.11908 3.69453,-2.31881 3.70313,-1.46195 4.0556,-1.05837 4.23693,0.0143 3.32862,0.41331 3.96328,0.77802 3.38606,1.95532 3.16653,2.26471"
        id="path12301"
        sodipodi:nodetypes="cccccscscccccccccc" />
-    <a xlink:href="/favorites/" target="_self" style="text-decoration:none">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text16419"
-       transform="translate(1.4815195,2.3043945)"><textPath
-         xlink:href="#path12301"
-         id="textPath32613"
-         style="font-size:7.76111px;fill:#ff0000">                        <tspan
+    <a
+       xlink:href="/favorites/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1026">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text16419"
+         transform="translate(1.4815195,2.3043945)"><textPath
+           xlink:href="#path12301"
+           id="textPath32613"
+           style="font-size:7.76111px;fill:#ff0000">                        <tspan
    style="fill:#ffffff"
    id="tspan764560">fa<tspan
    id="tspan688118"
    style="font-size:2.11667px"> </tspan>vori<tspan
    style="font-size:1.41111px"
-   id="tspan736304"> </tspan>tes</tspan></textPath></text></a>
+   id="tspan736304"> </tspan>tes 🌸</tspan></textPath></text>
+    </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
        d="m 56.868987,201.42074 1.856788,-7.40833 5.396704,-5.82406 8.468986,-4.29921 8.016092,-3.73935 6.031239,-0.70186 5.790253,1.76275 6.942491,1.99465 4.47321,-0.79164"
        id="path73516"
        sodipodi:nodetypes="ccccccccc" />
-    <a xlink:href="/visual-art/" target="_self" style="text-decoration:none"><text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text74730"
-       transform="translate(0.88229378,2.026566)"><textPath
-         xlink:href="#path73516"
-         id="textPath77806"
-         style="font-size:6.35px;fill:#ffffff">            visual<tspan
+    <a
+       xlink:href="/visual-art/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1032">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text74730"
+         transform="translate(0.88229378,2.026566)"><textPath
+           xlink:href="#path73516"
+           id="textPath77806"
+           style="font-size:6.35px;fill:#ffffff">   🌸      visual<tspan
    style="font-size:4.23333px"
-   id="tspan592229"> </tspan>art</textPath></text></a>
-    <a xlink:href="/writing/" target="_self" style="text-decoration:none">
-    <path
-       style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.00321633"
-       d="m 83.067404,154.1487 4.48831,-2.83314 5.153864,-0.68803 3.988313,1.45087 3.841819,3.23957 3.92279,3.05371 c 0,0 3.28898,2.32034 4.12782,2.86089 0.83884,0.54056 4.67073,1.5963 5.52675,1.81832 0.85602,0.22202 7.09246,1.01855 8.30559,1.01638 1.21313,-0.002 5.33536,0.2915 6.514,0.45303 1.17863,0.16152 13.90297,-0.53484 13.90297,-0.53484"
-       id="path113170" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text114120"
-       transform="translate(-0.1186251,3.1058049)"><textPath
-         xlink:href="#path113170"
-         id="textPath119254"
-         style="fill:#ffffff">       w<tspan
+   id="tspan592229"> </tspan>art</textPath></text>
+    </a>
+    <a
+       xlink:href="/writing/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1039">
+      <path
+         style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.00321633"
+         d="m 83.067404,154.1487 4.48831,-2.83314 5.153864,-0.68803 3.988313,1.45087 3.841819,3.23957 3.92279,3.05371 c 0,0 3.28898,2.32034 4.12782,2.86089 0.83884,0.54056 4.67073,1.5963 5.52675,1.81832 0.85602,0.22202 7.09246,1.01855 8.30559,1.01638 1.21313,-0.002 5.33536,0.2915 6.514,0.45303 1.17863,0.16152 13.90297,-0.53484 13.90297,-0.53484"
+         id="path113170" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text114120"
+         transform="translate(-0.1186251,3.1058049)"><textPath
+           xlink:href="#path113170"
+           id="textPath119254"
+           style="fill:#ffffff"> 🌸    w<tspan
    style="font-size:3.88056px"
    id="tspan520068"> </tspan>ri<tspan
    style="font-size:1.41111px"
-   id="tspan682120"> </tspan>ting</textPath></text></a>
+   id="tspan682120"> </tspan>ting</textPath></text>
+    </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.02095"
        d="m 27.280091,180.5248 c 0,0 1.581496,-1.76906 2.235942,-2.42246 1.364161,-1.36198 2.382395,-2.18535 2.475986,-2.25355 0.05396,-0.0393 0.505554,-0.4997 1.136518,-0.8613 0.987781,-0.56608 2.319628,-1.11485 2.520984,-1.15049 0.168923,-0.0299 1.060857,-0.37246 2.09403,-0.31732 0.985046,0.0526 1.943973,0.27992 2.215678,0.34137 0.309954,0.0701 1.146657,0.28636 2.161523,0.41626 0.80787,0.10341 2.558145,-0.12986 2.886878,-0.22076 0.577753,-0.16005 1.06307,-0.44737 1.595387,-0.69981 0.578612,-0.27439 0.992316,-0.45179 1.322761,-0.61934 0.268694,-0.13624 1.146819,-0.75034 1.786117,-1.10188 0.870234,-0.47853 1.437857,-0.73396 1.70139,-0.80348 0.247554,-0.0653 1.481707,-0.63371 3.235246,-1.53693 1.484558,-0.76468 3.541397,-1.76718 3.740834,-1.88659 0.435013,-0.26045 3.010235,-1.51711 3.010235,-1.51711 0,0 4.792186,-2.16485 5.180957,-2.3126 0,0 4.641988,-1.81545 6.281856,-2.61645 2.980443,-1.45579 5.572971,-3.28334 5.695414,-3.28588"
@@ -151,46 +167,61 @@
        d="m 64.488942,133.64907 5.190305,-3.61306 3.024287,-2.01564 c 0,0 1.606841,-0.8114 3.578633,-1.11864 1.682985,-0.26224 5.177467,-0.31176 5.360503,-0.27916 0.38699,0.069 4.610107,1.02313 4.610107,1.02313 0,0 6.432741,0.67345 6.904686,0.71665 0.282603,0.0259 3.184248,0.007 4.823081,0.0498 1.097984,0.0286 1.23244,0.27315 1.23244,0.27315 0.234138,0.0515 2.281746,0.54145 4.196946,1.01311 3.59374,0.75935 7.60126,1.85127 10.5676,2.84865 l 7.10375,1.44391 5.59209,1.8987 5.36041,3.78586 2.61711,3.72056 3.17172,6.22269 1.63256,5.41131"
        id="path198620"
        sodipodi:nodetypes="cccsccssscccccccc" />
-    <a xlink:href="/work-portfolio/" target="_self" style="text-decoration:none">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text200329"
-       transform="translate(0.3245153,2.352963)"><textPath
-         xlink:href="#path198620"
-         id="textPath205097"
-         style="fill:#ffffff"> work portfolio</textPath></text>
-   </a>
+    <a
+       xlink:href="/work-portfolio/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1049">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text200329"
+         transform="translate(0.3245153,2.352963)"><textPath
+           xlink:href="#path198620"
+           id="textPath205097"
+           style="fill:#ffffff"> work portfolio  🌸</textPath></text>
+    </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.00181628"
        d="m 71.231216,168.49803 2.511809,0.81925 3.248011,0.58508 c 0,0 2.598396,0.71011 2.722742,0.79826 l 2.184998,0.95854 1.661045,0.67254 1.774727,0.0953 1.550181,-0.39179 1.274377,-0.58542 1.471974,-1.33837 1.088152,-0.75486 c 0,0 1.043112,-0.50521 1.657419,-0.71332 0.373523,-0.12654 0.790487,-0.0535 1.03766,-0.0884 0.505776,-0.0714 0.669403,-0.16212 0.987039,-0.15826 0.230336,0.003 1.256913,0.0785 1.324164,0.0853 0.279847,0.0282 1.437927,0.12986 1.437927,0.12986 l 3.450359,0.0669 2.74124,-0.81038 c 0,0 1.75873,-1.29125 1.85638,-1.36173 0.0976,-0.0705 0.92751,-1.42888 0.92751,-1.42888"
        id="path228787"
        sodipodi:nodetypes="cccccccccccssscccccc" />
-    <a xlink:href="/interests/" target="_self" style="text-decoration:none">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text233637"
-       transform="translate(0.19199079,1.1334484)"><textPath
-         xlink:href="#path228787"
-         id="textPath239833"
-         style="fill:#ffffff">               i<tspan
+    <a
+       xlink:href="/interests/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1056">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text233637"
+         transform="translate(0.19199079,1.1334484)"><textPath
+           xlink:href="#path228787"
+           id="textPath239833"
+           style="fill:#ffffff">     🌸        i<tspan
    style="font-size:1.41111px"
    id="tspan528380"> </tspan>nterete<tspan
    style="font-size:0.705556px"
-   id="tspan543704"> </tspan>sts</textPath></text></a>
+   id="tspan543704"> </tspan>sts</textPath></text>
+    </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
        d="m 106.83769,151.07503 4.26494,-2.27879 5.31347,-3.64669 4.27721,-4.42658"
        id="path263627" />
-    <a xlink:href="/" target="_self" style="text-decoration:none"><text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text264214"
-       transform="translate(0.69747187,0.719439)"><textPath
-         xlink:href="#path263627"
-         id="textPath270274"
-         style="fill:#ffffff">home</textPath></text></a>
+    <a
+       xlink:href="/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1061">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text264214"
+         transform="translate(0.69747187,0.719439)"><textPath
+           xlink:href="#path263627"
+           id="textPath270274"
+           style="fill:#ffffff">home</textPath></text>
+    </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
        d="m 148.25913,172.01797 15.6721,4.8907 3.60035,1.16667 7.33666,2.72767 c 0,0 4.88391,1.77448 5.65096,2.26231 0.76704,0.48784 8.11046,3.94835 8.11046,3.94835 l 7.52603,4.56082"
@@ -225,14 +256,98 @@
        x="1.9274592"><tspan
          sodipodi:role="line"
          id="tspan650514"
-         style="stroke-width:0.264583"></tspan></text>
-    <a xlink:href="/about_me/" target="_self" style="text-decoration:none"><text
+         style="stroke-width:0.264583" /></text>
+    <a
+       xlink:href="/about_me/"
+       target="_self"
+       style="text-decoration:none"
+       id="a1073">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="text662714"
+         transform="translate(0.33495058,1.2635941)"><textPath
+           xlink:href="#path146829"
+           id="textPath668544"
+           style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583">  🌸        🌸     about me 🌸</textPath></text>
+    </a>
+    <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       id="text662714"
-       transform="translate(0.33495058,1.2635941)"><textPath
-         xlink:href="#path146829"
-         id="textPath668544"
-         style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583">                    about me</textPath></text></a>
+       style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text2162"
+       y="183.23956"
+       x="171.10904"><tspan
+         sodipodi:role="line"
+         id="tspan2160"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="171.10904"
+         y="183.23956">🌸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text2162-3"
+       y="130.38231"
+       x="17.988285"><tspan
+         sodipodi:role="line"
+         id="tspan2160-6"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="17.988285"
+         y="130.38231">🌸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text2162-3-9"
+       y="162.45819"
+       x="-8.0728264"><tspan
+         sodipodi:role="line"
+         id="tspan2160-6-3"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-8.0728264"
+         y="162.45819">🌸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text2162-3-3"
+       y="140.21841"
+       x="50.063412"><tspan
+         sodipodi:role="line"
+         id="tspan2160-6-56"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="50.063412"
+         y="140.21841">🌸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text2162-3-3-1"
+       y="215.19618"
+       x="14.373783"><tspan
+         sodipodi:role="line"
+         id="tspan2160-6-56-2"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="14.373783"
+         y="215.19618">🌸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.31316px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.236743"
+       id="text2162-3-3-1-7"
+       y="118.06001"
+       x="154.28506"
+       transform="scale(0.98462313,1.015617)"><tspan
+         sodipodi:role="line"
+         id="tspan2160-6-56-2-0"
+         style="font-size:6.31316px;stroke-width:0.236743"
+         x="154.28506"
+         y="118.06001">🌸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="text2162-3-7"
+       y="132.0872"
+       x="176.37596"><tspan
+         sodipodi:role="line"
+         id="tspan2160-6-5"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="176.37596"
+         y="132.0872">🌸</tspan></text>
   </g>
 </svg>

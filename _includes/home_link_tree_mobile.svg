@@ -26,15 +26,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.7623486"
-     inkscape:cx="305.84283"
-     inkscape:cy="166.13663"
+     inkscape:zoom="6.734978"
+     inkscape:cx="455.5153"
+     inkscape:cy="135.42686"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2943"
+     inkscape:current-layer="layer1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -63,28 +63,40 @@
          d="m 104.77729,114.38404 5.38034,4.08679 4.34903,2.86628 2.96723,1.61687 c 0,0 3.61043,1.68752 5.7059,2.06755 2.55813,0.46394 5.23711,0.60161 5.42192,0.63505 0.33619,0.0608 9.18803,-0.3048 9.18803,-0.3048 l 4.24183,-0.49599"
          id="path157240"
          sodipodi:nodetypes="ccccsccc" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         id="text158706"
-         transform="translate(-0.51487339,2.7376117)"><textPath
-           xlink:href="#path157240"
-           id="textPath162300"
-           style="fill:#ffffff">writing</textPath></text>
+      <a
+         xlink:href="/writing/"
+         target="_self"
+         style="text-decoration:none"
+         id="a9">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           id="text158706"
+           transform="translate(-0.51487339,2.7376117)"><textPath
+             xlink:href="#path157240"
+             id="textPath162300"
+             style="fill:#ffffff">writing</textPath></text>
+      </a>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0001187"
-         d="m 66.82926,126.47598 3.258929,-1.73081 4.789807,-1.62811 4.466135,-1.85959 3.327027,-1.74486 5.268701,-3.68088 4.607805,-4.01809"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.000118719"
+         d="m 66.82926,126.47598 3.258929,-1.73081 4.789807,-1.62811 4.466135,-1.85959 3.327027,-1.74486 5.268701,-3.68088 7.959265,-4.5738 8.807156,-1.80189"
          id="path176350"
-         sodipodi:nodetypes="ccccccc" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         id="text177366"
-         transform="translate(0.97172675,1.0873024)"><textPath
-           xlink:href="#path176350"
-           id="textPath185302"><tspan
-             id="tspan177364"
-             style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583">        about</tspan></textPath></text>
+         sodipodi:nodetypes="cccccccc" />
+      <a
+         xlink:href="/about_me/"
+         target="_self"
+         style="text-decoration:none"
+         id="a15">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           id="text177366"
+           transform="translate(0.97172675,1.0873024)"><textPath
+             xlink:href="#path176350"
+             id="textPath185302"><tspan
+               id="tspan177364"
+               style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583">        about   🌸</tspan></textPath></text>
+      </a>
     </g>
     <text
        xml:space="preserve"
@@ -114,7 +126,7 @@
          transform="translate(1.4815195,2.3043945)"><textPath
            xlink:href="#path12301"
            id="textPath32613"
-           style="font-size:7.76111px;fill:#ff0000">                        <tspan
+           style="font-size:7.76111px;fill:#ff0000">                  🌸   <tspan
    style="fill:#ffffff"
    id="tspan764560">fa<tspan
    id="tspan688118"
@@ -186,7 +198,7 @@
          transform="translate(0.3245153,2.352963)"><textPath
            xlink:href="#path198620"
            id="textPath205097"
-           style="fill:#ffffff">     work portfolio</textPath></text>
+           style="fill:#ffffff"> 🌸work portfolio</textPath></text>
     </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.00181628"
@@ -213,8 +225,9 @@
     </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
-       d="m 106.83769,151.07503 4.26494,-2.27879 5.31347,-3.64669 4.27721,-4.42658"
-       id="path263627" />
+       d="m 105.59398,152.01338 5.50865,-3.21714 5.31347,-3.64669 5.47715,-5.71873"
+       id="path263627"
+       sodipodi:nodetypes="cccc" />
     <a
        xlink:href="/"
        target="_self"
@@ -227,7 +240,7 @@
          transform="translate(0.69747187,0.719439)"><textPath
            xlink:href="#path263627"
            id="textPath270274"
-           style="fill:#ffffff">home</textPath></text>
+           style="fill:#ffffff">home 🌸</textPath></text>
     </a>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
