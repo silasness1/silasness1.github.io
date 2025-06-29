@@ -1,14 +1,23 @@
 <nav class="navbar">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <div class="dropdown">
-      <a href="#" onclick="return false;">Personal</a>
-      <div class="dropdown-content">
-        <a href="{{ '/about-me/' | relative_url }}">About me</a>
-        <a href="{{ '/favorites/' | relative_url }}">Favorites</a>
-        <a href="{{ '/interests/' | relative_url }}">Interests</a>
-      </div>
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  <div class="dropdown">
+    <a href="#" onclick="return false;">Personal</a>
+    <div class="dropdown-content">
+      <a href="{{ '/about-me/' | relative_url }}">About me</a>
+      <a href="{{ '/favorites/' | relative_url }}">Favorites</a>
+      <a href="{{ '/interests/' | relative_url }}">Interests</a>
     </div>
-    <a href="{{ '/visual-art/' | relative_url }}">Visual Art</a>
-    <a href="{{ '/writing/' | relative_url }}">Writing</a>
-    <a href="{{ '/work-portfolio/' | relative_url }}">Work Portfolio</a>
+  </div>
+
+  <a href="{{ '/visual-art/' | relative_url }}">Visual Art</a>
+  <a href="{{ '/writing/' | relative_url }}">Writing</a>
+
+  <div class="dropdown">
+    <a href="#" onclick="return false;">Work Portfolio</a>
+    <div class="dropdown-content">
+      <a href="{{ '/work-portfolio/' | relative_url }}">Work Portfolio</a>
+      <a href="{{ '/ninety-days-study-summary/' | relative_url }}">90 Days Study Summary</a>
+    </div>
+  </div>
 </nav>
