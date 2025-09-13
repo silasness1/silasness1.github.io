@@ -1,0 +1,16 @@
+{
+  "name": "Jekyll Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools"
+  ],
+  "postCreateCommand": "bundle install",
+  "postStartCommand": "bundle exec jekyll serve --host 0.0.0.0 --port 4000",
+  "forwardPorts": [4000],
+  "remoteUser": "root"
+}
