@@ -3,6 +3,14 @@ layout: post
 title: Personal Code of Conduct for Econometrics
 ---
 
+<style>
+p, li {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 1em;       
+    line-height: 1.5em;   
+}
+</style>
+
 1) Communication & Teaching 
 Statisticians and econometricians are constrained by their ultimate step of teaching the insights/products of their analysis to their audience. Communicaitng economic insights is lesson planning in miniature. First and foremost, you have to learn to be an adequate teacher and science communicator
 - Tailoring explanations to your audience

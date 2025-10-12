@@ -3,6 +3,14 @@ layout: post
 title: Why Germany
 ---
 
+<style>
+p, li {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 1em;       
+    line-height: 1.5em;   
+}
+</style>
+
 Education here is affordable, rigorous, and refreshingly international. German universities, in my experience, demand depth and independence—qualities I value.
 
 Living abroad also gives me a chance to redefine myself. Being an international student has a kind of monastic focus: fewer distractions, more room for study and reflection.
