@@ -1,0 +1,7 @@
+What this project is... 
+
+A jekyll based blog hosted at silasness1.github.io
+
+Use VSCode to open up your project from within the container (click bottom right "><" button)
+
+And can run "bundle exec jekyll serve --host 0.0.0.0 --port 4000" to check progress
