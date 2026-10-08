@@ -4,7 +4,12 @@
     "dockerfile": "Dockerfile"
   },
   "workspaceFolder": "/workspace",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+  "runArgs": [
+    "-v",
+    "${localWorkspaceFolder}:/workspace:Z"
+  ],
+  
   "extensions": [
     "ms-vscode.cpptools",
     "ms-vscode.cmake-tools"
